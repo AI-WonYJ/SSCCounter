@@ -94,9 +94,13 @@ $ uvicorn SSCCounter_WebServer:app --reload --port=8000 --host=0.0.0.0
 
 ---
 ## 화면 구성 📺
+
+<div align="center">
+
 | 메인 페이지  |  Json 페이지   |
 | :-------------------------------------------: | :------------: |
 |  <img width="329" src="https://github.com/AI-WonYJ/SSCCounter/assets/101448204/1421f522-7e7a-4503-a1a7-5a9fe036fcc3"/> |  <img width="329" src="https://github.com/AI-WonYJ/SSCCounter/assets/101448204/9b31ea92-45c0-44a6-b316-0c5206d7bc65"/>|  
+</div>
 
 ---
 ## 주요 기능 📦
