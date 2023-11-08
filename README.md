@@ -1,4 +1,4 @@
-# SSCCounter-3rd
+# SSCCounter-v0.1.0
 
 <div align="center">
 <img width="329" alt="image" src="https://github.com/AI-WonYJ/SSCCounter/assets/101448204/4de0bfbc-ec7d-4cec-860f-1e0c37cfc941">
@@ -7,7 +7,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=http%3A%2F%2Fssccounter.shop&count_bg=%2379C83D&title_bg=%23555555&icon=airplayvideo.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 </div>
 
-# SSCCounter Web Page v3.0
+# SSCCounter Web Page v0.1.0
 > **숭실대학교 컴퓨터 동아리 (SSCC: SoongSil ComputingClub)** <br/> **개발기간: 2022.06 ~ 2023.05**
 
 ## 배포 주소
