@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 env:
-  DOCKER_IMAGE: ghcr.io/swthewhite/myproject:latest
+  DOCKER_IMAGE: ghcr.io/swthewhite/myproject
   VERSION: ${{ github.sha }}
   NAME: newdevelop
 
