@@ -9,6 +9,3 @@ RUN pip install --no-cache-dir -r /code/requirements.txt
 COPY . /code
 
 WORKDIR /code/WebServer
-
-#CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
-CMD ["/bin/bash"]
