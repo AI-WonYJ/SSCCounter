@@ -16,4 +16,4 @@ RUN wget https://pjreddie.com/media/files/yolov3.weights
 
 WORKDIR /code/WebServer
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "3000"]
