@@ -28,8 +28,8 @@ async def count():
 
 ## Backend ##
 
-#app = FastAPI(docs_url=None, redoc_url=None)
-app = FastAPI()
+app = FastAPI(docs_url=None, redoc_url=None)
+#app = FastAPI()
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
@@ -66,7 +66,7 @@ async def nCnt():
     return {"people_count": SSCCount, "analysis_time": Standard_Time}
 
 
-@app.post("/uploadfile/")
+@app.post("/uploadfile")
 async def create_upload_file(file: UploadFile = File(...)):
     contents = await file.read()
 
