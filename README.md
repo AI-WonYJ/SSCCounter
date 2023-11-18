@@ -12,9 +12,9 @@
 
 ## 배포 주소
 
-> **웹페이지** : [http://www.ssccounter.sscc.run/](http://www.ssccounter.sscc.run/) <br>
-> **프론트 서버** : [http://www.ssccounter.sscc.run/uploadfile/](http://www.ssccounter.sscc.run/uploadfile/)<br>
-> **Json 요청** : [http://www.ssccounter.sscc.run/ssccounter.json/](http://www.ssccounter.sscc.run/ssccounter.json/)
+> **웹페이지** : [http://ssccounter.sscc.run/](http://www.ssccounter.sscc.run/) <br>
+> **프론트 서버** : [http://ssccounter.sscc.run/uploadfile/](http://www.ssccounter.sscc.run/uploadfile/)<br>
+> **Json 요청** : [http://ssccounter.sscc.run/ssccounter.json/](http://www.ssccounter.sscc.run/ssccounter.json/)
 
 ## 웹개발팀 소개
 
