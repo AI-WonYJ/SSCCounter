@@ -24,6 +24,7 @@ async def count():
         except:
             print(
                 f"시간: {datetime.now()}  >>>  SSCCount: Error!")
+        # 2초마다 갱신
         await asyncio.sleep(2)
 
 ## Backend ##
@@ -49,7 +50,7 @@ async def Page(request: Request):
     else:
         countable = 0
 
-    # FastAPI로 new.html에 변수 값 전달
+    # index.html에 변수 값 전달
     return templates.TemplateResponse("index(Ver_8).html", {"request": request, "People_Count": int(SSCCount), "Countable": countable, "last_time": current_time, "get_time": current_time, "Get_Time": Standard_Time})
 
 
@@ -60,7 +61,7 @@ async def ContributorPage(request: Request):
 
 @app.get("/SSCCounter.json")
 async def nCnt():
-    Standard_Time, SSCCount = yolo_machine.run_machine()
+    SSCCount, Standard_Time = status["people_count"], status["analysis_time"]
     print(SSCCount)
 
     return {"people_count": SSCCount, "analysis_time": Standard_Time}
