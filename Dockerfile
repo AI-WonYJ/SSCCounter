@@ -4,8 +4,9 @@ WORKDIR /code
 
 COPY ./requirements.txt /code/requirements.txt
 
-ENV TZ=Asia/Seoul
+ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get install -y tzdata
+RUN ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
 
 RUN apt-get update
 RUN apt-get -y install libgl1-mesa-glx wget
