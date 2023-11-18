@@ -4,7 +4,9 @@ WORKDIR /code
 
 COPY ./requirements.txt /code/requirements.txt
 
-RUN timedatectl set-timezone Asia/Seoul
+ENV TZ=Asia/Seoul
+RUN apt-get install -y tzdata
+
 RUN apt-get update
 RUN apt-get -y install libgl1-mesa-glx wget
 RUN pip install --no-cache-dir -r /code/requirements.txt
