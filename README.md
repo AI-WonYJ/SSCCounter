@@ -10,7 +10,7 @@
 
 </div>
 
-> **숭실대학교 컴퓨터 동아리 (SoongSil ComputingClub)**<br>
+> **숭실대학교 컴퓨터 동아리 (SoongSil Computing Club)**<br>
 > **개발기간: 2022.06~** <br>
 > **Version: 0.2.0**
 
